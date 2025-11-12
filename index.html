@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roald Macedo Boza | Portafolio</title>
-    <meta name="description" content="Portafolio personal de Roald Macedo Boza, estudiante de Ciencias de la Computación en la Universidad Católica San Pablo.">
+    <title>Roald Macedo Boza | Portafolio Profesional</title>
+    <meta name="description" content="Portafolio profesional de Roald Macedo Boza, estudiante de Ciencias de la Computación en la Universidad Católica San Pablo (UCSP), Arequipa, Perú.">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" type="image/png">
     <style>
         /* ====== ESTILOS GENERALES ====== */
@@ -13,6 +13,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f7f9fc;
@@ -23,14 +24,25 @@
         /* ====== ENCABEZADO ====== */
         header {
             background: linear-gradient(135deg, #004182, #0a66c2);
-            color: #fff;
-            padding: 60px 20px 40px 20px;
+            color: white;
             text-align: center;
+            padding: 60px 20px 40px 20px;
         }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
         header h1 {
-            font-size: 2.5em;
+            font-size: 2.6em;
             margin-bottom: 10px;
         }
+
         header p {
             font-size: 1.1em;
             opacity: 0.9;
@@ -47,8 +59,8 @@
         }
 
         section h2 {
-            text-align: center;
             color: #0a66c2;
+            text-align: center;
             margin-bottom: 25px;
             font-size: 1.8em;
         }
@@ -57,6 +69,29 @@
             font-size: 17px;
             margin-bottom: 15px;
             text-align: justify;
+        }
+
+        /* ====== LISTAS Y TABLAS ====== */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .course-list {
+            margin-top: 15px;
+        }
+
+        .prof-list a {
+            color: #0a66c2;
+            text-decoration: none;
+        }
+
+        .prof-list a:hover {
+            text-decoration: underline;
         }
 
         /* ====== ENLACES SOCIALES ====== */
@@ -105,32 +140,61 @@
                 margin: 20px;
                 padding: 25px;
             }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 <body>
 
     <header>
+        <!-- Puedes reemplazar esta imagen por tu foto -->
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Foto de perfil">
         <h1>Roald Macedo Boza</h1>
-        <p>Estudiante de Ciencias de la Computación | Universidad Católica San Pablo</p>
+        <p>Estudiante de Ciencias de la Computación | Universidad Católica San Pablo (UCSP)</p>
+        <p>Arequipa, Perú</p>
     </header>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Soy un estudiante apasionado por la programación, la inteligencia artificial y el desarrollo de software. Me gusta crear soluciones eficientes, aprender nuevas tecnologías y mejorar mis habilidades constantemente.</p>
-        <p>Además de la informática, disfruto entrenar en el gimnasio, aprender idiomas y explorar temas de innovación tecnológica.</p>
+    <section id="perfil">
+        <h2>Perfil Profesional</h2>
+        <p>Soy estudiante universitario de la carrera de <strong>Ciencias de la Computación</strong> en la Universidad Católica San Pablo (UCSP). Me apasiona el desarrollo de software, la programación en C++ y Python, así como las áreas de inteligencia artificial, sistemas operativos y redes. Busco aplicar mis conocimientos en proyectos que integren eficiencia, innovación y trabajo en equipo.</p>
+        <p>Me considero una persona responsable, analítica y comprometida con la mejora continua. Mi objetivo profesional es especializarme en <strong>Inteligencia Artificial</strong> y <strong>desarrollo de soluciones tecnológicas</strong> que generen impacto en la sociedad.</p>
     </section>
 
-    <section id="informacion">
-        <h2>Información personal</h2>
-        <p><strong>Edad:</strong> 19 años</p>
-        <p><strong>Ciudad:</strong> Arequipa, Perú</p>
-        <p><strong>Universidad:</strong> Universidad Católica San Pablo</p>
+    <section id="formacion">
+        <h2>Formación Académica</h2>
+        <p><strong>Universidad:</strong> Universidad Católica San Pablo (UCSP), Arequipa – Perú</p>
         <p><strong>Carrera:</strong> Ciencias de la Computación</p>
+        <p><strong>Grado actual:</strong> Segundo semestre (2025)</p>
+        <h3>Cursos relevantes:</h3>
+        <ul class="course-list">
+            <li>• Programación en C++</li>
+            <li>• Lógica y Estructuras Discretas</li>
+            <li>• Sistemas Operativos</li>
+            <li>• Redes de Computadoras</li>
+            <li>• Filosofía</li>
+            <li>• Apreciación Musical</li>
+        </ul>
+    </section>
+
+    <section id="profesores">
+        <h2>Profesores y Mentores</h2>
+        <ul class="prof-list">
+            <li>👨‍🏫 <strong>Prof. Eduardo Cuadros V.</strong> — <a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">LinkedIn</a></li>
+            <li>👩‍🏫 <strong>Prof. Rosa Yuliana Gabriela Paccotacya Yanque</strong> — <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li>👨‍🏫 <strong>Prof. Manuel Eduardo Loaiza Fernández</strong> — <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+        </ul>
     </section>
 
     <section id="contacto">
-        <h2>Conecta conmigo</h2>
+        <h2>Contacto y Redes</h2>
         <div class="social-links">
             <!-- LinkedIn -->
             <a href="https://pe.linkedin.com/in/roald-macedo-boza-a466a4385" target="_blank" title="LinkedIn">
@@ -148,8 +212,9 @@
     </section>
 
     <footer>
-        © 2025 Roald Macedo Boza — Todos los derechos reservados
+        © 2025 Roald Macedo Boza — Portafolio Profesional | Universidad Católica San Pablo
     </footer>
 
 </body>
 </html>
+
