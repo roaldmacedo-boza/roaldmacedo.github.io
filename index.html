@@ -28,6 +28,28 @@
             font-size: 16px;
             margin: 10px 0;
         }
+        .link-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #0a66c2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #004182;
+        }
+        .linkedin-icon {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -45,6 +67,12 @@
         <h3>Sobre mí</h3>
         <p>Soy estudiante universitario interesado en la programación, la inteligencia artificial y el desarrollo web.</p>
         <p>También me gusta entrenar en el gimnasio y aprender cosas nuevas todos los días.</p>
+
+        <!-- Enlace a LinkedIn con ícono -->
+        <a class="link-button" href="https://pe.linkedin.com/in/roald-macedo-boza-a466a4385" target="_blank">
+            <img class="linkedin-icon" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            Ver mi LinkedIn
+        </a>
     </div>
 </body>
 </html>
